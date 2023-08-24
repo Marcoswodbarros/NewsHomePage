@@ -6,11 +6,11 @@ const  showMenu = function() {
     if (openMenu.classList.contains('nav__ul--expanded')) {
         openMenu.classList.remove('nav__ul--expanded');
         menuIcons.src = 'assets/images/icon-menu.svg';
-        main.style.position = 'static';
+        main.classList.remove('main__menu--expanded');
 
     } else {
         openMenu.classList.add('nav__ul--expanded');
         menuIcons.src = 'assets/images/icon-menu-close.svg';
-        main.style.position = 'fixed';
+        main.classList.add('main__menu--expanded');
     }
 }
