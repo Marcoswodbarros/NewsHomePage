@@ -72,3 +72,41 @@ h1 {
 .new__section--two p {
     padding-bottom: 2rem;
 }
+
+
+.main__section--third {
+    padding: 0 5%;
+}
+
+
+.main__section--third section {
+    display: flex;
+    column-gap: .8rem;
+    margin-bottom: 2rem;
+}
+
+.main__section--third img {
+    width: 31%;
+}
+
+.text__container {
+    display: flex;
+    flex-direction: column;
+    row-gap: .8rem;
+}
+
+.text__container span {
+    color: $grayish-blue;
+    display: block;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.texts h3 {
+    margin-bottom: .8rem;
+}
+
+.texts p {
+    color: $dark-grayish-blue;
+    line-height: 1.5rem;
+}
