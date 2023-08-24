@@ -28,6 +28,7 @@ nav {
     top: -100%;
     transition: ease .8s;
     width: 70%;
+    z-index: 199;
 }
 
 .nav__ul--expanded {
