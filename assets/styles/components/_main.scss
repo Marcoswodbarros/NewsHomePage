@@ -1,0 +1,12 @@
+@import '../abstract/variables';
+
+.main__section--first {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.section__first--img {
+    width: 90%;
+}

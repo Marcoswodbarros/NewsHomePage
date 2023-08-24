@@ -1,3 +1,30 @@
+nav {
+  align-items: center;
+  background-color: hsl(36, 100%, 99%);
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 1.5rem;
+}
+
+.nav__logo {
+  height: 2rem;
+}
+
+.nav__menu--closed {
+  display: none;
+}
+
+.main__section--first {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+.section__first--img {
+  width: 90%;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
