@@ -12,14 +12,14 @@ main {
     display: flex;
     flex-direction: column;
     max-width: 32rem;
-    min-width: 375px;
     row-gap: 1rem;
+    width: 90vw;
 }
 
 .section__first--img,
 .main__section--first h1,
 .main__section--first p {
-    width: 90%;
+    width: 100%;
 }
 
 h1 {
@@ -38,7 +38,6 @@ h1 {
     color: $off-white;
     font-weight: 700;
     letter-spacing: .3rem;
-    margin-left: 5%;
     padding: 1rem 2rem;
     text-transform: uppercase;
 }
@@ -53,7 +52,7 @@ h1 {
     max-width: 32rem;
     padding: 1rem;
     row-gap: 2rem;
-    width: 90%;
+    width: 90vw;
 }
 
 .main__section--second h2 {
