@@ -7,6 +7,29 @@
     row-gap: 1rem;
 }
 
-.section__first--img {
+.section__first--img,
+.main__section--first h1,
+.main__section--first p {
     width: 90%;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.main__section--first p {
+    line-height: 1.5rem;
+}
+
+.main__section--first span {
+    align-self: flex-start;
+    background-color: $soft-red;
+    border-radius: .2rem;
+    color: $off-white;
+    font-weight: 700;
+    letter-spacing: .3rem;
+    margin-left: 5%;
+    padding: 1rem 2rem;
+    text-transform: uppercase;
 }
