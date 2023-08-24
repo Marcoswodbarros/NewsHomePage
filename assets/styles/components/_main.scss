@@ -1,5 +1,6 @@
 @import '../abstract/variables';
 
+// First Section
 .main__section--first {
     align-items: center;
     display: flex;
@@ -35,6 +36,7 @@ h1 {
 }
 
 
+// Second Section
 .main__section--second {
     background-color: $very-dark-blue;
     display: flex;
@@ -79,6 +81,7 @@ h1 {
 }
 
 
+// Third Section
 .main__section--third section {
     display: flex;
     column-gap: .8rem;
