@@ -12,6 +12,34 @@ nav {
     height: 2rem;
 }
 
+.nav__menu--open {
+    z-index: 200;
+}
+
 .nav__menu--closed {
     display: none;
+}
+
+.nav__ul {
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 0 0 30% 10%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    row-gap: 1.5rem;
+    width: 70%;
+}
+
+.nav__ul li {
+    list-style: none;
+}
+
+.nav__ul li a {
+    color: $very-dark-blue;
+    font-size: 1.5rem;
+    text-decoration: none;
 }
