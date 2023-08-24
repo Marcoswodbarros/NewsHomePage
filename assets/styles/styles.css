@@ -10,26 +10,27 @@ nav {
   height: 2rem;
 }
 
-.nav__menu--open {
+.nav__menu--icons {
   z-index: 200;
 }
 
-.nav__menu--closed {
-  display: none;
-}
-
 .nav__ul {
-  background-color: antiquewhite;
   display: flex;
   flex-direction: column;
   justify-content: center;
   min-height: 100vh;
   padding: 0 0 30% 10%;
   position: absolute;
-  top: 0;
   right: 0;
   row-gap: 1.5rem;
+  top: -100%;
+  transition: ease 0.8s;
   width: 70%;
+}
+
+.nav__ul--expanded {
+  background-color: antiquewhite;
+  top: 0;
 }
 
 .nav__ul li {
