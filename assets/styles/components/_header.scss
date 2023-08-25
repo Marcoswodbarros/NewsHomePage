@@ -6,6 +6,10 @@ nav {
     display: flex;
     justify-content: space-between;
     padding: 2rem 1.5rem;
+
+    @media screen and (min-width: 1024px) {
+        padding: 4rem 6rem 3rem 6rem;
+    }
 }
 
 .nav__logo {
@@ -14,6 +18,10 @@ nav {
 
 .nav__menu--icons {
     z-index: 200;
+
+    @media screen and (min-width: 1024px) {
+        display: none;
+    }
 }
 
 .nav__ul {
@@ -36,6 +44,15 @@ nav {
         padding: 0 0 10% 0;
         width: 100%;
     }
+
+    @media screen and (min-width: 1024px) {
+        flex-direction: row;
+        min-height: 0;
+        padding: 0;
+        position: static;
+        column-gap: 2rem;
+        width: auto;
+    }
 }
 
 .nav__ul--expanded {
@@ -51,4 +68,10 @@ nav {
     color: $very-dark-blue;
     font-size: 1.5rem;
     text-decoration: none;
+
+    @media screen and (min-width: 1024px) {
+        color: $dark-grayish-blue;
+        cursor: pointer;
+        font-size: 1rem;
+    }
 }

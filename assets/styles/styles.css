@@ -5,6 +5,11 @@ nav {
   justify-content: space-between;
   padding: 2rem 1.5rem;
 }
+@media screen and (min-width: 1024px) {
+  nav {
+    padding: 4rem 6rem 3rem 6rem;
+  }
+}
 
 .nav__logo {
   height: 2rem;
@@ -12,6 +17,11 @@ nav {
 
 .nav__menu--icons {
   z-index: 200;
+}
+@media screen and (min-width: 1024px) {
+  .nav__menu--icons {
+    display: none;
+  }
 }
 
 .nav__ul {
@@ -36,6 +46,17 @@ nav {
     width: 100%;
   }
 }
+@media screen and (min-width: 1024px) {
+  .nav__ul {
+    flex-direction: row;
+    min-height: 0;
+    padding: 0;
+    position: static;
+    -moz-column-gap: 2rem;
+         column-gap: 2rem;
+    width: auto;
+  }
+}
 
 .nav__ul--expanded {
   background-color: antiquewhite;
@@ -50,6 +71,13 @@ nav {
   color: hsl(240, 100%, 5%);
   font-size: 1.5rem;
   text-decoration: none;
+}
+@media screen and (min-width: 1024px) {
+  .nav__ul li a {
+    color: hsl(236, 13%, 42%);
+    cursor: pointer;
+    font-size: 1rem;
+  }
 }
 
 main {
