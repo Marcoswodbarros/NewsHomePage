@@ -8,9 +8,7 @@ main {
     min-height: 100vh;
     row-gap: 4rem;
 
-    @media screen and (min-width: 1024px) {
-        
-    }
+    @media screen and (min-width: 1024px) {}
 }
 
 // First Section
@@ -23,9 +21,7 @@ main {
 
     grid-row: 1 / 2;
 
-    @media screen and (min-width: 1024px) {
-        
-    }
+    @media screen and (min-width: 1024px) {}
 }
 
 .section__first--img,
@@ -53,18 +49,14 @@ h1 {
     font-size: 2.5rem;
     font-weight: 800;
 
-    @media screen and (min-width: 1024px) {
-        
-    }
+    @media screen and (min-width: 1024px) {}
 }
 
 .main__section--first p {
     color: $dark-grayish-blue;
     line-height: 1.5rem;
 
-    @media screen and (min-width: 1024px) {
-        
-    }
+    @media screen and (min-width: 1024px) {}
 }
 
 .main__section--first span {
@@ -78,9 +70,7 @@ h1 {
     text-transform: uppercase;
     width: 60%;
 
-    @media screen and (min-width: 1024px) {
-        
-    }
+    @media screen and (min-width: 1024px) {}
 }
 
 
@@ -97,9 +87,7 @@ h1 {
 
     grid-row: 2 / 3;
 
-    @media screen and (min-width: 1024px) {
-        
-    }
+    @media screen and (min-width: 1024px) {}
 }
 
 .main__section--second h2 {
@@ -134,13 +122,16 @@ h1 {
 // Third Section
 
 .main__section--third {
-    grid-row: 3 / 4;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    justify-items: center;
     width: 90%;
 
-    @media screen and (min-width: 1024px) {
-        
-    }
+    grid-row: 3 / 4;
+
+    @media screen and (min-width: 1024px) {}
 }
+
 .main__section--third section {
     display: flex;
     column-gap: .8rem;
