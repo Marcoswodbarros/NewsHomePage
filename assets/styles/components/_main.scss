@@ -15,11 +15,10 @@ main {
 
 // First Section
 .main__section--first {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-rows: auto auto auto auto;
     max-width: 32rem;
-    row-gap: 1rem;
+    row-gap: 1.5rem;
     width: 90vw;
 
     grid-row: 1 / 2;
@@ -60,23 +59,24 @@ h1 {
 }
 
 .main__section--first p {
+    color: $dark-grayish-blue;
     line-height: 1.5rem;
 
     @media screen and (min-width: 1024px) {
-        color: $dark-grayish-blue;
         
     }
 }
 
 .main__section--first span {
-    align-self: flex-start;
     background-color: $soft-red;
     border-radius: .2rem;
     color: $off-white;
     font-weight: 700;
     letter-spacing: .3rem;
-    padding: 1rem 2rem;
+    padding: 1rem 0;
+    text-align: center;
     text-transform: uppercase;
+    width: 60%;
 
     @media screen and (min-width: 1024px) {
         

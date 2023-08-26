@@ -88,11 +88,10 @@ main {
   row-gap: 4rem;
 }
 .main__section--first {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-rows: auto auto auto auto;
   max-width: 32rem;
-  row-gap: 1rem;
+  row-gap: 1.5rem;
   width: 90vw;
   grid-row: 1/2;
 }
@@ -123,23 +122,19 @@ h1 {
   font-weight: 800;
 }
 .main__section--first p {
+  color: hsl(236, 13%, 42%);
   line-height: 1.5rem;
 }
-@media screen and (min-width: 1024px) {
-  .main__section--first p {
-    color: hsl(236, 13%, 42%);
-  }
-}
-
 .main__section--first span {
-  align-self: flex-start;
   background-color: hsl(5, 85%, 63%);
   border-radius: 0.2rem;
   color: hsl(36, 100%, 99%);
   font-weight: 700;
   letter-spacing: 0.3rem;
-  padding: 1rem 2rem;
+  padding: 1rem 0;
+  text-align: center;
   text-transform: uppercase;
+  width: 60%;
 }
 .main__section--second {
   background-color: hsl(240, 100%, 5%);
