@@ -82,7 +82,7 @@ nav {
 
 main {
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto;
   justify-items: center;
   min-height: 100vh;
   row-gap: 4rem;
@@ -140,19 +140,13 @@ h1 {
   background-color: hsl(240, 100%, 5%);
   display: flex;
   flex-direction: column;
-  margin: 0 auto;
   max-width: 32rem;
-  padding: 1rem;
+  padding: 1.5rem;
   row-gap: 2rem;
   width: 90%;
+  height: auto;
   grid-row: 2/3;
 }
-@media screen and (min-width: 1024px) {
-  .main__section--second {
-    margin: 0;
-  }
-}
-
 .main__section--second h2 {
   color: hsl(35, 77%, 62%);
   font-size: 2rem;
