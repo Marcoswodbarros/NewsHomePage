@@ -137,25 +137,24 @@ h1 {
 }
 .main__section--second {
   background-color: hsl(240, 100%, 5%);
-  display: flex;
-  flex-direction: column;
   max-width: 32rem;
   padding: 1.5rem;
-  row-gap: 2rem;
   width: 90%;
-  height: auto;
 }
 .main__section--second h2 {
   color: hsl(35, 77%, 62%);
   font-size: 2rem;
+  margin-bottom: 2rem;
 }
 
 .main__section--second section {
   border-bottom: 1px solid hsl(233, 8%, 79%);
+  margin-bottom: 2rem;
 }
 
 .main__section--second section:nth-last-child(1) {
   border-bottom: none;
+  margin-bottom: 0;
 }
 
 .main__section--second section h3 {

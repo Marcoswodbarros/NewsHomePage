@@ -75,15 +75,9 @@ h1 {
 // Second Section
 .main__section--second {
     background-color: $very-dark-blue;
-    display: flex;
-    flex-direction: column;
     max-width: 32rem;
     padding: 1.5rem;
-    row-gap: 2rem;
     width: 90%;
-    height: auto;
-
-    // grid-row: 2 / 3;
 
     @media screen and (min-width: 1024px) {}
 }
@@ -91,14 +85,17 @@ h1 {
 .main__section--second h2 {
     color: $soft-orange;
     font-size: 2rem;
+    margin-bottom: 2rem;
 }
 
 .main__section--second section {
     border-bottom: 1px solid $grayish-blue;
+    margin-bottom: 2rem;
 }
 
 .main__section--second section:nth-last-child(1) {
     border-bottom: none;
+    margin-bottom: 0;
 }
 
 .main__section--second section h3 {
@@ -122,8 +119,6 @@ h1 {
 .main__section--third {
     max-width: 32rem;
     width: 90%;
-
-    // grid-row: 3 / 4;
 
     @media screen and (min-width: 1024px) {}
 }
