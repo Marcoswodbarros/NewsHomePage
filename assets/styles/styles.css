@@ -88,7 +88,8 @@ main {
 }
 @media screen and (min-width: 1024px) {
   main {
-    padding: 0 6rem;
+    padding: 0 4rem;
+    grid-template-areas: "first second" "third third";
   }
 }
 
@@ -101,7 +102,7 @@ main {
 }
 @media screen and (min-width: 1024px) {
   .main__section--first {
-    gap: 2rem;
+    row-gap: 1rem;
     grid-template-areas: "img img img" "title text text" "title button button";
   }
 }
@@ -125,7 +126,7 @@ main {
   .section__first--imgDesktop {
     display: block;
     grid-area: img;
-    width: 40rem;
+    width: 100%;
   }
 }
 
@@ -135,7 +136,6 @@ h1 {
 }
 @media screen and (min-width: 1024px) {
   h1 {
-    font-size: 2.8rem;
     grid-area: title;
   }
 }
@@ -165,6 +165,7 @@ h1 {
 @media screen and (min-width: 1024px) {
   .main__section--first span {
     grid-area: button;
+    height: 3.2rem;
     margin-top: 0;
   }
 }
@@ -175,6 +176,12 @@ h1 {
   padding: 1.5rem;
   width: 90%;
 }
+@media screen and (min-width: 1024px) {
+  .main__section--second {
+    width: 20rem;
+  }
+}
+
 .main__section--second h2 {
   color: hsl(35, 77%, 62%);
   font-size: 2rem;
@@ -200,7 +207,6 @@ h1 {
   color: hsl(233, 8%, 79%);
   line-height: 1.5rem;
 }
-
 .new__section--one p,
 .new__section--two p {
   padding-bottom: 2rem;
@@ -210,6 +216,13 @@ h1 {
   max-width: 32rem;
   width: 90%;
 }
+@media screen and (min-width: 1024px) {
+  .main__section--third {
+    display: flex;
+    height: auto;
+  }
+}
+
 .main__section--third section {
   display: flex;
   -moz-column-gap: 0.8rem;
@@ -217,9 +230,14 @@ h1 {
   margin-bottom: 2rem;
   max-width: 32rem;
 }
-
 .main__section--third img {
   width: 31%;
+}
+@media screen and (min-width: 1024px) {
+  .main__section--third img {
+    height: 40%;
+    width: auto;
+  }
 }
 
 .text__container {
