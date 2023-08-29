@@ -82,18 +82,15 @@ nav {
 
 main {
   display: grid;
-  grid-template-rows: auto auto auto;
+  grid-template-areas: "First" "Second" "Third";
   justify-items: center;
   min-height: 100vh;
   row-gap: 4rem;
 }
 .main__section--first {
-  display: grid;
-  grid-template-rows: auto auto auto auto;
+  grid-area: First;
   max-width: 32rem;
-  row-gap: 1.5rem;
   width: 90vw;
-  grid-row: 1/2;
 }
 .section__first--img,
 .main__section--first h1,
@@ -140,12 +137,12 @@ h1 {
   background-color: hsl(240, 100%, 5%);
   display: flex;
   flex-direction: column;
+  grid-area: Second;
   max-width: 32rem;
   padding: 1.5rem;
   row-gap: 2rem;
   width: 90%;
   height: auto;
-  grid-row: 2/3;
 }
 .main__section--second h2 {
   color: hsl(35, 77%, 62%);
@@ -176,11 +173,8 @@ h1 {
 }
 
 .main__section--third {
-  display: grid;
-  grid-template-rows: auto auto auto;
-  justify-items: center;
+  max-width: 32rem;
   width: 90%;
-  grid-row: 3/4;
 }
 .main__section--third section {
   display: flex;
