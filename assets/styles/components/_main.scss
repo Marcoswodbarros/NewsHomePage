@@ -3,10 +3,6 @@
 
 main {
     display: grid;
-    grid-template-areas: 
-    "First"
-    "Second"
-    "Third";
     justify-items: center;
     min-height: 100vh;
     row-gap: 4rem;
@@ -16,8 +12,10 @@ main {
 
 // First Section
 .main__section--first {
-    grid-area: First;
+    display: grid;
+    justify-items: center;
     max-width: 32rem;
+    row-gap: 1rem;
     width: 90vw;
 
     @media screen and (min-width: 1024px) {}
@@ -60,10 +58,11 @@ h1 {
 
 .main__section--first span {
     background-color: $soft-red;
-    border-radius: .2rem;
     color: $off-white;
     font-weight: 700;
+    justify-self: start;
     letter-spacing: .3rem;
+    margin-top: 1rem;
     padding: 1rem 0;
     text-align: center;
     text-transform: uppercase;
@@ -78,7 +77,6 @@ h1 {
     background-color: $very-dark-blue;
     display: flex;
     flex-direction: column;
-    grid-area: Second;
     max-width: 32rem;
     padding: 1.5rem;
     row-gap: 2rem;
