@@ -7,7 +7,9 @@ main {
     min-height: 100vh;
     row-gap: 4rem;
 
-    @media screen and (min-width: 1024px) {}
+    @media screen and (min-width: 1024px) {
+        padding: 0 6rem;
+    }
 }
 
 // First Section
@@ -18,7 +20,13 @@ main {
     row-gap: 1rem;
     width: 90vw;
 
-    @media screen and (min-width: 1024px) {}
+    @media screen and (min-width: 1024px) {
+        gap: 2rem;
+        grid-template-areas: 
+        "img img img"
+        "title text text"
+        "title button button";
+    }
 }
 
 .section__first--img,
@@ -38,7 +46,8 @@ main {
 
     @media screen and (min-width: 1024px) {
         display: block;
-        width: 100%;
+        grid-area: img;
+        width: 40rem;
     }
 }
 
@@ -46,14 +55,19 @@ h1 {
     font-size: 2.5rem;
     font-weight: 800;
 
-    @media screen and (min-width: 1024px) {}
+    @media screen and (min-width: 1024px) {
+        font-size: 2.8rem;
+        grid-area: title;
+    }
 }
 
 .main__section--first p {
     color: $dark-grayish-blue;
     line-height: 1.5rem;
 
-    @media screen and (min-width: 1024px) {}
+    @media screen and (min-width: 1024px) {
+        grid-area: text;
+    }
 }
 
 .main__section--first span {
@@ -68,7 +82,10 @@ h1 {
     text-transform: uppercase;
     width: 60%;
 
-    @media screen and (min-width: 1024px) {}
+    @media screen and (min-width: 1024px) {
+        grid-area: button;
+        margin-top: 0;
+    }
 }
 
 
