@@ -1,0 +1,46 @@
+@import '../abstract/variables';
+
+
+.main__section--second {
+    background-color: $very-dark-blue;
+    max-width: 32rem;
+    padding: 1.5rem;
+    width: 90%;
+
+    @media screen and (min-width: 1024px) {
+        width: 20rem;
+    }
+}
+
+.main__section--second h2 {
+    color: $soft-orange;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.main__section--second section {
+    border-bottom: 1px solid $grayish-blue;
+    margin-bottom: 2rem;
+}
+
+.main__section--second section:nth-last-child(1) {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+.main__section--second section h3 {
+    color: $off-white;
+    margin-bottom: .5rem;
+}
+
+.main__section--second section p {
+    color: $grayish-blue;
+    line-height: 1.5rem;
+
+    @media screen and (min-width: 1024px) {}
+}
+
+.new__section--one p,
+.new__section--two p {
+    padding-bottom: 2rem;
+}

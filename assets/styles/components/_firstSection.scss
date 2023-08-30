@@ -1,0 +1,77 @@
+@import '../abstract/variables';
+
+
+.main__section--first {
+    display: grid;
+    justify-items: center;
+    max-width: 32rem;
+    row-gap: 1rem;
+    width: 90vw;
+
+    @media screen and (min-width: 1024px) {
+        row-gap: 1rem;
+        grid-template-areas:
+            "img img img"
+            "title text text"
+            "title button button";
+    }
+}
+
+.section__first--img,
+.main__section--first h1,
+.main__section--first p {
+    width: 100%;
+}
+
+.section__first--img {
+    @media screen and (min-width: 1024px) {
+        display: none;
+    }
+}
+
+.section__first--imgDesktop {
+    display: none;
+
+    @media screen and (min-width: 1024px) {
+        display: block;
+        grid-area: img;
+        width: 100%;
+    }
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+
+    @media screen and (min-width: 1024px) {
+        grid-area: title;
+    }
+}
+
+.main__section--first p {
+    color: $dark-grayish-blue;
+    line-height: 1.5rem;
+
+    @media screen and (min-width: 1024px) {
+        grid-area: text;
+    }
+}
+
+.main__section--first span {
+    background-color: $soft-red;
+    color: $off-white;
+    font-weight: 700;
+    justify-self: start;
+    letter-spacing: .3rem;
+    margin-top: 1rem;
+    padding: 1rem 0;
+    text-align: center;
+    text-transform: uppercase;
+    width: 60%;
+
+    @media screen and (min-width: 1024px) {
+        grid-area: button;
+        height: 3.2rem;
+        margin-top: 0;
+    }
+}
