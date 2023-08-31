@@ -88,8 +88,11 @@ main {
 }
 @media screen and (min-width: 1024px) {
   main {
-    padding: 0 4rem;
+    align-items: start;
+    -moz-column-gap: 2rem;
+         column-gap: 2rem;
     grid-template-areas: "first second" "third third";
+    justify-content: center;
   }
 }
 
@@ -102,7 +105,8 @@ main {
 }
 @media screen and (min-width: 1024px) {
   .main__section--first {
-    row-gap: 1rem;
+    align-content: center;
+    row-gap: 2rem;
     grid-template-areas: "img img img" "title text text" "title button button";
   }
 }
@@ -146,6 +150,7 @@ h1 {
 }
 @media screen and (min-width: 1024px) {
   .main__section--first p {
+    font-size: 0.8rem;
     grid-area: text;
   }
 }
@@ -164,9 +169,9 @@ h1 {
 }
 @media screen and (min-width: 1024px) {
   .main__section--first span {
+    font-size: 0.8rem;
     grid-area: button;
-    height: 3.2rem;
-    margin-top: 0;
+    margin-top: 0.8rem;
   }
 }
 
@@ -178,7 +183,7 @@ h1 {
 }
 @media screen and (min-width: 1024px) {
   .main__section--second {
-    width: 20rem;
+    width: 19rem;
   }
 }
 
@@ -187,10 +192,20 @@ h1 {
   font-size: 2rem;
   margin-bottom: 2rem;
 }
+@media screen and (min-width: 1024px) {
+  .main__section--second h2 {
+    margin-bottom: 1.5rem;
+  }
+}
 
 .main__section--second section {
   border-bottom: 1px solid hsl(233, 8%, 79%);
   margin-bottom: 2rem;
+}
+@media screen and (min-width: 1024px) {
+  .main__section--second section {
+    margin-bottom: 1.5rem;
+  }
 }
 
 .main__section--second section:nth-last-child(1) {
@@ -202,14 +217,33 @@ h1 {
   color: hsl(36, 100%, 99%);
   margin-bottom: 0.5rem;
 }
+@media screen and (min-width: 1024px) {
+  .main__section--second section h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.2rem;
+  }
+}
 
 .main__section--second section p {
   color: hsl(233, 8%, 79%);
   line-height: 1.5rem;
 }
+@media screen and (min-width: 1024px) {
+  .main__section--second section p {
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+  }
+}
+
 .new__section--one p,
 .new__section--two p {
   padding-bottom: 2rem;
+}
+@media screen and (min-width: 1024px) {
+  .new__section--one p,
+  .new__section--two p {
+    padding-bottom: 1.5rem;
+  }
 }
 
 .main__section--third {

@@ -9,7 +9,8 @@
     width: 90vw;
 
     @media screen and (min-width: 1024px) {
-        row-gap: 1rem;
+        align-content: center;
+        row-gap: 2rem;
         grid-template-areas:
             "img img img"
             "title text text"
@@ -53,6 +54,7 @@ h1 {
     line-height: 1.5rem;
 
     @media screen and (min-width: 1024px) {
+        font-size: .8rem;
         grid-area: text;
     }
 }
@@ -70,8 +72,8 @@ h1 {
     width: 60%;
 
     @media screen and (min-width: 1024px) {
+        font-size: .8rem;
         grid-area: button;
-        height: 3.2rem;
-        margin-top: 0;
+        margin-top: .8rem;
     }
 }
