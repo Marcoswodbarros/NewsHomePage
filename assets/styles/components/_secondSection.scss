@@ -47,6 +47,7 @@
         &:hover {
             color: $soft-orange;
             cursor: pointer;
+            transition: .7s ease;
         }
     }
 }

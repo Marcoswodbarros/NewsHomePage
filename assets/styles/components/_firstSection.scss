@@ -79,6 +79,7 @@ h1 {
         &:hover {
             background-color: $very-dark-blue;
             cursor: pointer;
+            transition: 1.5s ease;
         }
     }
 }

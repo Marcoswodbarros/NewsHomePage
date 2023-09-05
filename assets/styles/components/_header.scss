@@ -80,6 +80,7 @@ nav {
         &:hover {
             cursor: pointer;
             color: $soft-red;
+            transition: .7s ease;
         }
     }
 }
