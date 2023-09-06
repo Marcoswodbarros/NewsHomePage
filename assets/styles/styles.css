@@ -125,6 +125,12 @@ main {
     justify-content: center;
   }
 }
+@media screen and (min-width: 1440px) {
+  main {
+    -moz-column-gap: 2.5rem;
+         column-gap: 2.5rem;
+  }
+}
 
 .main__section--first {
   display: grid;
