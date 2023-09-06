@@ -10,6 +10,11 @@
     @media screen and (min-width: 1024px) {
         width: 19rem;
     }
+
+    @media screen and (min-width: 1440px) {
+        padding: 2rem;
+        width: 34rem;   
+    }
 }
 
 .main__section--second h2 {
@@ -20,6 +25,11 @@
     @media screen and (min-width: 1024px) {
         margin-bottom: 1.5rem;
     }
+
+    @media screen and (min-width: 1440px) {
+        font-size: 2.5rem;
+        margin-bottom: 2rem;   
+    }
 }
 
 .main__section--second section {
@@ -28,6 +38,10 @@
 
     @media screen and (min-width: 1024px) {
         margin-bottom: 1.5rem;
+    }
+
+    @media screen and (min-width: 1440px) {
+        margin-bottom: 2rem;   
     }
 }
 
@@ -50,6 +64,11 @@
             transition: .5s ease;
         }
     }
+
+    @media screen and (min-width: 1440px) {
+        font-size: 1.7rem;
+        margin-bottom: .7rem;   
+    }
 }
 
 .main__section--second section p {
@@ -60,6 +79,11 @@
         font-size: .8rem;
         line-height: 1.2rem;
     }
+
+    @media screen and (min-width: 1440px) {
+        font-size: 1.2rem;
+        line-height: 1.7rem;   
+    }
 }
 
 .new__section--one p,
@@ -68,5 +92,9 @@
 
     @media screen and (min-width: 1024px) {
         padding-bottom: 1.5rem;
+    }
+
+    @media screen and (min-width: 1440px) {
+        padding-bottom: 2rem;   
     }
 }

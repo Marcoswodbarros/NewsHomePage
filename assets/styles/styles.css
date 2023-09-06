@@ -148,7 +148,7 @@ main {
 }
 @media screen and (min-width: 1440px) {
   .main__section--first {
-    max-width: 35rem;
+    max-width: 45rem;
     row-gap: 1.5rem;
   }
 }
@@ -203,6 +203,7 @@ h1 {
 @media screen and (min-width: 1440px) {
   .main__section--first p {
     line-height: 2rem;
+    font-size: 1.2rem;
   }
 }
 
@@ -247,6 +248,12 @@ h1 {
     width: 19rem;
   }
 }
+@media screen and (min-width: 1440px) {
+  .main__section--second {
+    padding: 2rem;
+    width: 34rem;
+  }
+}
 
 .main__section--second h2 {
   color: hsl(35, 77%, 62%);
@@ -258,6 +265,12 @@ h1 {
     margin-bottom: 1.5rem;
   }
 }
+@media screen and (min-width: 1440px) {
+  .main__section--second h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+}
 
 .main__section--second section {
   border-bottom: 1px solid hsl(233, 8%, 79%);
@@ -266,6 +279,11 @@ h1 {
 @media screen and (min-width: 1024px) {
   .main__section--second section {
     margin-bottom: 1.5rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .main__section--second section {
+    margin-bottom: 2rem;
   }
 }
 
@@ -289,6 +307,12 @@ h1 {
     transition: 0.5s ease;
   }
 }
+@media screen and (min-width: 1440px) {
+  .main__section--second section h3 {
+    font-size: 1.7rem;
+    margin-bottom: 0.7rem;
+  }
+}
 
 .main__section--second section p {
   color: hsl(233, 8%, 79%);
@@ -300,6 +324,12 @@ h1 {
     line-height: 1.2rem;
   }
 }
+@media screen and (min-width: 1440px) {
+  .main__section--second section p {
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+  }
+}
 
 .new__section--one p,
 .new__section--two p {
@@ -309,6 +339,12 @@ h1 {
   .new__section--one p,
   .new__section--two p {
     padding-bottom: 1.5rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .new__section--one p,
+  .new__section--two p {
+    padding-bottom: 2rem;
   }
 }
 
