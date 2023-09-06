@@ -10,9 +10,19 @@ nav {
     padding: 4rem 6rem 3rem 6rem;
   }
 }
+@media screen and (min-width: 1440px) {
+  nav {
+    padding: 4.5rem 6.5rem 3.5rem 6.5rem;
+  }
+}
 
 .nav__logo {
   height: 2rem;
+}
+@media screen and (min-width: 1440px) {
+  .nav__logo {
+    height: 2.5rem;
+  }
 }
 
 .nav__menu--icons {
@@ -57,6 +67,12 @@ nav {
     width: auto;
   }
 }
+@media screen and (min-width: 1440px) {
+  .nav__ul {
+    -moz-column-gap: 2.5rem;
+         column-gap: 2.5rem;
+  }
+}
 
 .nav__ul--expanded {
   background-color: antiquewhite;
@@ -86,6 +102,11 @@ nav {
     cursor: pointer;
     color: hsl(5, 85%, 63%);
     transition: 0.7s ease;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .nav__ul li a {
+    font-size: 1.5rem;
   }
 }
 
