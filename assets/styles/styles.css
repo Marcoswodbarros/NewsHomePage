@@ -185,7 +185,7 @@ h1 {
   .main__section--first span:hover {
     background-color: hsl(240, 100%, 5%);
     cursor: pointer;
-    transition: 1.5s ease;
+    transition: 1s ease;
   }
 }
 
@@ -239,7 +239,7 @@ h1 {
   .main__section--second section h3:hover {
     color: hsl(35, 77%, 62%);
     cursor: pointer;
-    transition: 0.7s ease;
+    transition: 0.5s ease;
   }
 }
 
@@ -334,7 +334,7 @@ h1 {
   .texts h3:hover {
     color: hsl(5, 85%, 63%);
     cursor: pointer;
-    transition: 0.7s ease;
+    transition: 0.5s ease;
   }
 }
 

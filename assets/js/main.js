@@ -1,4 +1,4 @@
-const  showMenu = function() {
+const showMenu = function() {
     let main = document.querySelector('main');
     let openMenu = document.querySelector('.nav__ul');
     let menuIcons = document.querySelector('.nav__menu--icons');
