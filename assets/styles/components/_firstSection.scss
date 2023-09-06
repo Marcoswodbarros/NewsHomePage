@@ -16,6 +16,11 @@
             "title text text"
             "title button button";
     }
+
+    @media screen and (min-width: 1440px) {
+        max-width: 35rem;
+        row-gap: 1.5rem;
+    }
 }
 
 .section__first--img,
@@ -38,6 +43,8 @@
         grid-area: img;
         width: 100%;
     }
+
+    @media screen and (min-width: 1440px) {}
 }
 
 h1 {
@@ -46,6 +53,10 @@ h1 {
 
     @media screen and (min-width: 1024px) {
         grid-area: title;
+    }
+
+    @media screen and (min-width: 1440px) {
+        font-size: 3rem;
     }
 }
 
@@ -56,6 +67,10 @@ h1 {
     @media screen and (min-width: 1024px) {
         font-size: .8rem;
         grid-area: text;
+    }
+
+    @media screen and (min-width: 1440px) {
+        line-height: 2rem;
     }
 }
 
@@ -81,5 +96,9 @@ h1 {
             cursor: pointer;
             transition: 1s ease;
         }
+    }
+
+    @media screen and (min-width: 1440px) {
+        font-size: 1rem;
     }
 }
