@@ -188,6 +188,7 @@ h1 {
 @media screen and (min-width: 1440px) {
   h1 {
     font-size: 3.5rem;
+    margin-top: 0.5rem;
   }
 }
 
@@ -205,6 +206,7 @@ h1 {
   .main__section--first p {
     line-height: 2rem;
     font-size: 1.2rem;
+    width: 95%;
   }
 }
 
@@ -255,7 +257,7 @@ h1 {
   .main__section--second {
     max-width: none;
     padding: 2rem;
-    width: 28rem;
+    width: 27rem;
   }
 }
 
