@@ -38,7 +38,6 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  max-height: 100%;
   min-height: 100vh;
   padding: 0 0 30% 10%;
   position: absolute;
@@ -58,12 +57,12 @@ nav {
 }
 @media screen and (min-width: 1024px) {
   .nav__ul {
+    -moz-column-gap: 2rem;
+         column-gap: 2rem;
     flex-direction: row;
     min-height: 0;
     padding: 0;
     position: static;
-    -moz-column-gap: 2rem;
-         column-gap: 2rem;
     width: auto;
   }
 }
