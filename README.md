@@ -27,14 +27,11 @@ Users should be able to:
 
 ### Screenshot
 
-![Mobile](https://github.com/Marcoswodbarros/blogr-landing-page2/assets/108278189/02dc5b1a-f453-4f78-bbb5-065d149d07d3)
-![Mobile-menu](https://github.com/Marcoswodbarros/blogr-landing-page2/assets/108278189/1f5e35bb-85e6-43b6-ad56-58f5ebfb90cf)
+![Mobile - Closed](https://github.com/Marcoswodbarros/NewsHomePage/assets/108278189/18d08da2-10e0-48c4-a12c-f4e6cb1ff2af)
+![Mobile - Open](https://github.com/Marcoswodbarros/NewsHomePage/assets/108278189/4b3f15dd-1001-486b-bf24-5cdb3a137e06)
 
-![Ipad](https://github.com/Marcoswodbarros/blogr-landing-page2/assets/108278189/c656d15e-c88c-4cce-8702-26c6cea58782)
-![Ipad-menu](https://github.com/Marcoswodbarros/blogr-landing-page2/assets/108278189/5e3f258f-db32-4894-8e28-7ec832b1d089)
-
-![Desktop](https://github.com/Marcoswodbarros/blogr-landing-page2/assets/108278189/3061f60e-f3e8-47b2-a765-b4c2b06a2aee)
-![Desktop-menu](https://github.com/Marcoswodbarros/blogr-landing-page2/assets/108278189/6276f417-df9d-4a5e-bd9f-5efef1b5bcba)
+![Desktop](https://github.com/Marcoswodbarros/NewsHomePage/assets/108278189/9b6174ea-1567-4b61-aae0-b91abc450ae3)
+![Desktop - hover](https://github.com/Marcoswodbarros/NewsHomePage/assets/108278189/256ff39c-60a1-4cfc-a98b-112442f49aaf)
 
 ### Links
 

@@ -96,7 +96,7 @@ nav {
     display: block;
     height: 3px;
     margin: auto;
-    transition: width 0.7s ease;
+    transition: 0.7s ease;
     width: 0px;
   }
   .nav__ul li:hover {
