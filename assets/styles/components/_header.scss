@@ -7,6 +7,10 @@ nav {
     justify-content: space-between;
     padding: 2rem 1.5rem;
 
+    @media screen and (min-width: 576px) {
+        padding: 3rem 2.5rem;
+    }
+
     @media screen and (min-width: 1024px) {
         padding: 4rem 6rem 3rem 6rem;
     }

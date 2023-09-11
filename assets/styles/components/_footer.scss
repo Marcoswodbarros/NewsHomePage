@@ -1,0 +1,21 @@
+@import '../abstract/variables';
+
+footer {
+    p {
+        bottom: -50%;
+        left: 50%;
+        position: absolute;
+        transform: translate(-50%);
+
+        @media screen and (min-width: 1024px) {
+            font-size: .8rem;
+            padding-bottom: 1rem;
+            // bottom: -50%;
+        }
+
+        a {
+            color: $dark-grayish-blue;
+            text-decoration: none;
+        }
+    }
+}

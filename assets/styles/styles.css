@@ -5,6 +5,11 @@ nav {
   justify-content: space-between;
   padding: 2rem 1.5rem;
 }
+@media screen and (min-width: 576px) {
+  nav {
+    padding: 3rem 2.5rem;
+  }
+}
 @media screen and (min-width: 1024px) {
   nav {
     padding: 4rem 6rem 3rem 6rem;
@@ -112,7 +117,6 @@ nav {
 main {
   display: grid;
   justify-items: center;
-  min-height: 100vh;
   row-gap: 4rem;
 }
 @media screen and (min-width: 1024px) {
@@ -246,7 +250,7 @@ h1 {
   background-color: hsl(240, 100%, 5%);
   max-width: 32rem;
   padding: 1.5rem;
-  width: 90%;
+  width: 90vw;
 }
 @media screen and (min-width: 1024px) {
   .main__section--second {
@@ -474,6 +478,23 @@ h1 {
     font-size: 1.2rem;
     line-height: 1.7rem;
   }
+}
+
+footer p {
+  bottom: -50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%);
+}
+@media screen and (min-width: 1024px) {
+  footer p {
+    font-size: 0.8rem;
+    padding-bottom: 1rem;
+  }
+}
+footer p a {
+  color: hsl(236, 13%, 42%);
+  text-decoration: none;
 }
 
 * {
