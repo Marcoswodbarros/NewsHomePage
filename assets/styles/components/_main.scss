@@ -14,6 +14,7 @@ main {
         "first second"
         "third third";
         justify-content: center;
+        row-gap: 3rem;
     }
 
     @media screen and (min-width: 1440px) {
