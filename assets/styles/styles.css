@@ -1,6 +1,5 @@
 nav {
   align-items: center;
-  background-color: hsl(36, 100%, 99%);
   display: flex;
   justify-content: space-between;
   padding: 2rem 1.5rem;
@@ -499,9 +498,13 @@ footer p a {
 
 * {
   box-sizing: border-box;
+  font-family: "Inter", sans-serif;
   margin: 0;
   padding: 0;
-  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: hsl(36, 100%, 99%);
 }
 
 .main__menu--expanded {
