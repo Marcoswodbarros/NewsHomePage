@@ -80,6 +80,26 @@ nav {
 
 .nav__ul li {
     list-style: none;
+
+    @media screen and (min-width: 1024px) {
+        &::after {
+            content: '';
+            display: block;
+            height: 3px;
+            margin: auto;
+            transition: width .7s ease;
+            width: 0px;
+        }
+
+        &:hover {
+            cursor: pointer;
+
+            &:hover::after {
+                background: $soft-red;
+                width: 100%;
+            }
+        }
+    }
 }
 
 .nav__ul li a {

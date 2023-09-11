@@ -90,6 +90,23 @@ nav {
 .nav__ul li {
   list-style: none;
 }
+@media screen and (min-width: 1024px) {
+  .nav__ul li::after {
+    content: "";
+    display: block;
+    height: 3px;
+    margin: auto;
+    transition: width 0.7s ease;
+    width: 0px;
+  }
+  .nav__ul li:hover {
+    cursor: pointer;
+  }
+  .nav__ul li:hover:hover::after {
+    background: hsl(5, 85%, 63%);
+    width: 100%;
+  }
+}
 
 .nav__ul li a {
   color: hsl(240, 100%, 5%);
