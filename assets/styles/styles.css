@@ -369,6 +369,12 @@ h1 {
     width: 100%;
   }
 }
+@media screen and (min-width: 1440px) {
+  .main__section--third {
+    max-width: none;
+    width: 75rem;
+  }
+}
 
 .main__section--third section {
   display: flex;
@@ -376,6 +382,11 @@ h1 {
        column-gap: 0.8rem;
   margin-bottom: 2rem;
   max-width: 32rem;
+}
+@media screen and (min-width: 1440px) {
+  .main__section--third section {
+    width: 25rem;
+  }
 }
 
 .main__section--third img {
@@ -385,6 +396,11 @@ h1 {
   .main__section--third img {
     height: 35%;
     width: auto;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .main__section--third img {
+    height: 55%;
   }
 }
 
@@ -398,6 +414,11 @@ h1 {
     row-gap: 0.3rem;
   }
 }
+@media screen and (min-width: 1440px) {
+  .text__container {
+    row-gap: 0.8rem;
+  }
+}
 
 .text__container span {
   color: hsl(233, 8%, 79%);
@@ -408,6 +429,11 @@ h1 {
 @media screen and (min-width: 1024px) {
   .text__container span {
     font-size: 1.5rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .text__container span {
+    font-size: 2rem;
   }
 }
 
@@ -426,6 +452,12 @@ h1 {
     transition: 0.5s ease;
   }
 }
+@media screen and (min-width: 1440px) {
+  .texts h3 {
+    font-size: 1.3rem;
+    margin-bottom: 0.8rem;
+  }
+}
 
 .texts p {
   color: hsl(236, 13%, 42%);
@@ -435,6 +467,12 @@ h1 {
   .texts p {
     font-size: 0.7rem;
     line-height: 1.2rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .texts p {
+    font-size: 1.2rem;
+    line-height: 1.7rem;
   }
 }
 
